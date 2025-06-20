@@ -1,0 +1,26 @@
+body {
+  background: #0e100f;
+  font-family: sans-serif;
+  color: #7c7c6f;
+  overflow: hidden;
+  background-image: url('../assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.ball {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  will-change: transform;
+  position: absolute;
+  background-image: url('../assets/eren-head.png');
+  background-size: cover;
+  background-position: center;
+  z-index: 5;
+}
+
